@@ -9,9 +9,8 @@
         function createParagraph() {
           let para = document.createElement('p');
           para.textContent = 'You clicked the button!';
-          document.body.appendChild(para);
-          let text="hello"
-          console.log(text);
+          let text='hello';
+          document.body.appendChild(para, text);
         }
 
         const buttons = document.querySelectorAll('button');
